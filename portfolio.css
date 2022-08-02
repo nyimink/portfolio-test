@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,400;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background-image: url(https://wallpaper.dog/large/20526948.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto 0;
+    background-color: rgba(61, 56, 56, 0.692);
+    border-bottom: 1px solid lightgray;
+    
+}
+
+#FE-logo {
+    width: 10%;
+    height: 20%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: all ease 0.5s;
+}
+
+.menu a:hover {
+    border-bottom: solid white;
+    
+}
+
+.mainContainer {
+    margin-top: 200px;
+    margin-left: 150px;
+    font-family: monospace;
+    color: white;
+}
+
+.mainContainer h1 {
+    margin-bottom: 10px;
+}
+
+.mainContainer a {
+    margin-top: 50px;
+    display: block;
+    margin-left: 80px;
+    text-decoration: none;
+    position: absolute;
+    padding: 8px;
+    background-color: rgba(88, 208, 245, 0.8);
+    color: black;
+    border-radius: 10px;
+    border: 1px #aaa solid;
+}
+
+.mainContainer a:hover {
+    font-weight: bold;
+}
+
+.image {
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    right: 1px;
+    bottom: 0;
+}
+
+
+.img {
+    width: 65%;
+    position: absolute;
+        
+}
